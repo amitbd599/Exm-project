@@ -53,7 +53,11 @@ function App() {
                   />
                 </div>
                 <h5
-                  className={arr[10]?.settings?.general?.className}
+                  className={
+                    arr[10]?.settings?.general?.className +
+                    " " +
+                    "d-flex justify-content-center align-items-center"
+                  }
                   style={arr[10]?.settings?.style?.desktop}
                 >
                   {arr[10]?.settings?.general?.text}
